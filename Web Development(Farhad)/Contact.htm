@@ -7,6 +7,7 @@
         <title>Shanker Bhattarai-A brief introduction</title>
         <meta name="description" content="profile of Shanker Bhattarai">
         <link rel="stylesheet" href="Styles/Styles.css">
+        <script src="JS/JS.js"> </script>
     </head>
    <body>
 	<div id="header">
@@ -42,7 +43,7 @@
          <form name="myForm"  >
         Contact me:<br>
         First name: <br>
-             <input type="text" name="firstname" maxlength="25"> <br>
+             <input type="text" name="firstname"  id="firstname" maxlength="25"> <br>
         Last name:<br>
              <input type="text" name="lastname" maxlength="25">  <br>
         Gender:<br> 
@@ -58,9 +59,12 @@
          Comment: <br><input type="textarea"comment maxlength="255"><br>
         <button type="reset" value="Reset">Reset</button>
         <button type="submit" onclick="showInput();">Submit</button>
+             
+             <label> The data you entered is: </label>
+             
         
         </form>
-           
+          <p> <span id ='display'></span></p> 
        </div>
         
       
